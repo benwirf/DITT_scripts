@@ -1,0 +1,103 @@
+<html>
+<div id="img-cont" class="site_img">
+<img src='file:////home/ben/DITT/Display_images/Brunette-new-April-20/images/[%"photo_1"%]' style='transform:rotate([%"photo_1_rot"%]deg)'/>
+</div>
+<a id="prev-btn" class="prev">&#10094;</a>
+<a id="next-btn" class="next">&#10095;</a>
+
+<script>
+	var n = 0;
+	
+	var images = ['[%"photo_1"%]'];
+	var image_2 = '[%"photo_2"%]';
+	if(image_2){images.push(image_2)};
+	var image_3 = '[%"photo_3"%]';
+	if(image_3){images.push(image_3)};
+	
+	var rotation = ['[%"photo_1_rot"%]']
+	var rot_2 = '[%"photo_2_rot"%]';
+	if(rot_2){rotation.push(rot_2)};
+	var rot_3 = '[%"photo_3_rot"%]';
+	if(rot_3){rotation.push(rot_3)};
+
+	document.getElementById("next-btn").addEventListener("click", next_image);
+	document.getElementById("prev-btn").addEventListener("click", prev_image);
+	
+	function next_image(){
+		if(images.length>1){
+			if(n+1==images.length){n=0}else{n+=1}
+			show_image(n)
+		}
+	}
+	
+	function prev_image(){
+		if(images.length>1){
+			if(n==0){n=images.length-1}else{n-=1}
+			show_image(n)
+		}
+	}	
+	
+	function show_image(index){
+		var img_str = ""
+		img_str += "<img src='file:////home/ben/DITT/Display_images/Brunette-new-April-20/images/";
+		img_str += images[index]+"'"
+		img_str += ' style="transform:rotate('+rotation[index]+'deg'+')"'
+		img_str+="/>"
+		//alert(img_str)
+		document.getElementById("img-cont").innerHTML = img_str;
+		//alert(img_str)
+	}
+</script>
+
+<style>
+
+#img-cont {
+	display: flex;
+	width: 800px;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+	background-color: gray;
+}
+
+#img-cont img {
+	height: auto;
+	width: auto;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+</style>
+</html>
