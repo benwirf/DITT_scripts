@@ -23,5 +23,8 @@ while total_dist < line_length:
 
 plot_vals = [rl.dataProvider().sample(geom.asPoint(), 1)[0] for geom in sample_geoms]
 
-print(plot_vals)
+#print(plot_vals)
 
+plt.plot(plot_vals, label='Profile', color='brown', linewidth=2)
+
+plt.show()
