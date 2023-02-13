@@ -14,9 +14,7 @@ import os
 import time
                        
 class StyleRasters(QgsProcessingAlgorithm):
-    '''
-    HOLY SHIT- I think this works!!!
-    '''
+
     INPUT_FOLDER = 'INPUT_FOLDER'
     OUTPUT_LAYERS = 'OUTPUT_LAYERS'
     post_processors = []
