@@ -6,6 +6,11 @@ l = iface.activeLayer()
 r = l.renderer().shader().rasterShaderFunction().sourceColorRamp()
 print(r.properties())
 
+##or...
+#l = iface.activeLayer()
+#r = l.renderer().shader().rasterShaderFunction().createColorRamp()
+#print(r.properties())
+
 def style_raster(rl, max, min):
     props = {'color1': '1,133,113,255',
             'color2': '166,97,26,255',
