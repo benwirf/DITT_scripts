@@ -1,0 +1,7 @@
+iface_vector_menu = iface.vectorMenu()
+#print([c for c in iface_vector_menu.children()])
+rangeland_tools_menu = QMenu('Rangeland Tools', iface_vector_menu)
+custom_wa_action = QAction('Custom Watered Areas')
+rangeland_tools_menu.addAction(custom_wa_action)
+iface_vector_menu.addMenu(rangeland_tools_menu)
+#iface_vector_menu.removeAction(rangeland_tools_menu.menuAction())
