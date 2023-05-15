@@ -1,5 +1,4 @@
 from osgeo import gdal
-import numpy as np
 
 lyr = QgsProject.instance().mapLayersByName('202206.12months.growth.tot.nt')[0]
 
