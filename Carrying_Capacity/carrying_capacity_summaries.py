@@ -1,6 +1,6 @@
 project = QgsProject.instance()
 
-pdks_lyr = project.mapLayersByName('CDU_Paddocks')[0]
+pdk_lyr = project.mapLayersByName('CDU_Paddocks')[0]
 wpt_lyr = project.mapLayersByName('CDU_Waterpoints')[0]
 lu_lyr = project.mapLayersByName('Katherine_Rural_College_LU')[0]
 
