@@ -140,7 +140,7 @@ class DataExportDialog(QDialog):
         # if date_fld_idx == -1:
         #     return [False, 'Date field not found']
         dates = list(sub_layer.uniqueValues(date_fld_idx))
-        date_strings = [dd.toString() for dd in dates]
+        date_strings = [dd.toString() if dd!= NULL else 'NULL' for dd in dates]
         return [True, date_strings]
     
     def export_path_changed(self, path):
