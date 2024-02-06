@@ -1,6 +1,7 @@
 '''
 Raw CSVs need unnecessary columns removed and rows with 0 lat/long values deleted
 to successfully import into QGIS. They must then be converted to gpkg for editing.
+***The task above is implemented in batch_raw_csv_to_gpkg.py***
 At this point, features within the desired time period can be selected
 (with some time buffer [1 day?]) and re-exported. Then run workfow in script below
 to add and fill QDateTime field, spatially and temporally interpolate gaps in data
