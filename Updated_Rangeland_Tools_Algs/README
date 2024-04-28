@@ -1,0 +1,8 @@
+These files are widget classes and updated versions of the Rangeland tools algs
+which count raster pixels in categories e.g. TSDM Summary
+
+They have been updated to use a custom widget wrapper to allow the user to
+define the values for the Northern and Southern region scales and also
+select the region to use for each district.
+
+TODO: use numpy array instead of gdal numeric
