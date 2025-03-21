@@ -1,9 +1,9 @@
 import os
 from datetime import *
 
-dir_path = 'C:\\Users\\qw2\\Desktop\\Pain_Trial_GPS\\csv_files'
+dir_path = 'Path\\to\\csv_files'
 
-gpkg_out = 'C:\\Users\\qw2\\Desktop\\Pain_Trial_GPS\\gpkg'
+gpkg_out = 'Path\\to\\gpkg'
 
 #kml_out = '/home/ben/DITT/Pain_Trial_GPS/kml'
 
