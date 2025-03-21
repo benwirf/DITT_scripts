@@ -5,7 +5,7 @@ import os
 
 months_dict = dict((month, index) for index, month in enumerate(calendar.month_name) if month)
 
-homerange_source_folder = r'C:/Users/qw2/Desktop/Paddock_Power_GPS/home_range_geopackage_files'
+homerange_source_folder = r'Paddock_Power_GPS/home_range_geopackage_files'
 
 period_1_months = ['June', 'July', 'August', 'September', 'October', 'November', 'December']
 period_2_months = ['January', 'February', 'March', 'April', 'May']
