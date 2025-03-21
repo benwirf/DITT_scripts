@@ -1,9 +1,9 @@
 import csv
 import calendar
 
-months_csv = 'C:\\Users\\qw2\\Desktop\\Sweet_Spot\\OMP\\OMP_all_fires\\5kmWA_fire_summary.csv'
+months_csv = 'OMP_all_fires\\5kmWA_fire_summary.csv'
 
-years_csv = 'C:\\Users\\qw2\\Desktop\\Sweet_Spot\\OMP\\OMP_all_fires\\5kmWA_year_summary.csv'
+years_csv = 'OMP_all_fires\\5kmWA_year_summary.csv'
 
 tbl_months = open(months_csv, mode='w', newline='')
 
