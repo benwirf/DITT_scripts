@@ -8,7 +8,7 @@ project = QgsProject.instance()
 
 months_dict = dict((month, index) for index, month in enumerate(calendar.month_name) if month)
 
-homerange_source_folder = r'C:/Users/qw2/Desktop/Paddock_Power_GPS/home_range_geopackage_files/BIG_MUDGEE'
+homerange_source_folder = r'Paddock_Power_GPS/home_range_geopackage_files/BIG_MUDGEE'
 
 cibo_tc_folder = r'C:/Users/qw2/Desktop/Paddock_Power_GPS/Cibo_TC'
 
