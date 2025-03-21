@@ -3,13 +3,13 @@ import numpy as np
 import csv
 
 # Create output csv
-csv_path = 'C:/Users/qw2/Desktop/Robyn_Jobs/Mulga_Park_FPC/OUTPUT/brices_fpc_hist.csv'
+csv_path = 'Mulga_Park_FPC/OUTPUT/brices_fpc_hist.csv'
 csv_file = open(csv_path, mode='w', newline='')
 writer = csv.writer(csv_file)
 
 writer.writerow(['FPC_VALUE', 'COUNT'])
 
-raster_path = 'C:/Users/qw2/Desktop/Robyn_Jobs/Mulga_Park_FPC/brices_fcp.tif'
+raster_path = 'Mulga_Park_FPC/brices_fcp.tif'
 
 ds = gdal.Open(raster_path, gdal.GA_ReadOnly)
 
