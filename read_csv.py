@@ -1,6 +1,6 @@
 import csv
 
-file_path = r'C:\Users\qw2\Desktop\DITT_2\Huckitta_RMC\Huckitta_Color_Map.csv'
+file_path = r'Path\to\Huckitta_RMC\Huckitta_Color_Map.csv'
 
 csv_file = open(file_path)
 
