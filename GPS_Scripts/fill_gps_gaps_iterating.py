@@ -19,7 +19,7 @@ flds_to_add = [QgsField('ID', QVariant.Int),
                 QgsField('date_time', QVariant.DateTime, len=9, prec=6),
                 QgsField('Azimuth', QVariant.Int)]
 
-output_folder = 'C:\\Users\\qw2\\Desktop\\Paddock_Power_GPS\\GPS Data Aug21-March22\\gps_layers_final'
+output_folder = 'Paddock_Power_GPS\\GPS Data Aug21-March22\\gps_layers_final'
 
 for src_lyr in gps_lyrs:
     print(f'Interpolating gaps in {src_lyr.name()}')
