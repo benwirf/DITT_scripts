@@ -1,11 +1,11 @@
 import os
 from datetime import datetime
 
-dir_path = '/home/ben/DITT/Pain_Trial_GPS/csv_files'
+dir_path = 'path/to/csv_files'
 
-gpkg_out = '/home/ben/DITT/Pain_Trial_GPS/gpkg'
+gpkg_out = 'path/to/gpkg'
 
-kml_out = '/home/ben/DITT/Pain_Trial_GPS/kml'
+kml_out = 'path/to/kml'
 
 nt_extent = QgsRectangle(129.00047612800000252, -25.9986182724999999, 138.00119971199998758, -10.96591400600000021)
 
