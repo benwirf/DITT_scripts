@@ -1,10 +1,10 @@
 import os
 
-dir_path = 'C:\\Users\\qw2\\Desktop\\Pain_Trial_GPS\\csv_files'
+dir_path = 'Path\\to\\csv_files'
 
-shp_out = 'C:\\Users\\qw2\\Desktop\\Pain_Trial_GPS\\shp'
+shp_out = 'Path\\to\\shp'
 
-#kml_out = '/home/ben/DITT/Pain_Trial_GPS/kml'
+#kml_out = 'path/to/kml'
 
 nt_extent = QgsRectangle(129.00047612800000252, -25.9986182724999999, 138.00119971199998758, -10.96591400600000021)
 
