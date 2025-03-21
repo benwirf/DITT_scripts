@@ -1,6 +1,6 @@
 import csv
 
-lu_csv = 'R:\\LID-BigData\\SPATIAL DATA\\PROJECTS\\Kidman Springs\\Carrying Capacity\\Caz\\Kidman_LU_per_paddock.csv'
+lu_csv = 'Path\\to\\Kidman_LU_per_paddock.csv'
 
 tbl_lu = open(lu_csv, mode='w', newline='')
 
