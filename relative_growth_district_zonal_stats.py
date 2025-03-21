@@ -2,7 +2,7 @@ import os
 
 project = QgsProject.instance()
 
-output_folder = r'R:\LID-BigData\SPATIAL DATA\PROJECTS\Northern Territory\Feed Outlook\2023\NOVEMBER-2023\OUTPUT\Relative_Growth_Outputs'
+output_folder = r'Feed Outlook\2023\NOVEMBER-2023\OUTPUT\Relative_Growth_Outputs'
 
 # Edit layer names & change/add layers as required
 # located in DATA/PERCENTILE_GROWTH folder
