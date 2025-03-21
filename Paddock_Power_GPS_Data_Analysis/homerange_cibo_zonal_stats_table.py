@@ -6,7 +6,7 @@ months_dict = dict((month, index) for index, month in enumerate(calendar.month_n
 
 homerange_source_folder = r'Paddock_Power_GPS/home_range_geopackage_files'
 
-cibo_tsdm_folder = r'C:/Users/qw2/Desktop/Paddock_Power_GPS/Cibo_TSDM'
+cibo_tsdm_folder = r'Paddock_Power_GPS/Cibo_TSDM'
 
 period_1_months = ['June', 'July', 'August', 'September', 'October', 'November', 'December']
 period_2_months = ['January', 'February', 'March', 'April', 'May']
