@@ -1,6 +1,6 @@
 import os
 
-out_dir = 'C:\\Users\\qw2\\Desktop\\Pain_Trial_GPS\\gpkg\\paths'
+out_dir = '\\gpkg\\paths'
 
 for lyr in QgsProject.instance().mapLayers().values():
     if lyr.type() == QgsMapLayerType.VectorLayer:
