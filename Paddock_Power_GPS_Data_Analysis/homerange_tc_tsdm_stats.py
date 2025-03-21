@@ -10,9 +10,9 @@ months_dict = dict((month, index) for index, month in enumerate(calendar.month_n
 
 homerange_source_folder = r'Paddock_Power_GPS/home_range_geopackage_files/BIG_MUDGEE'
 
-cibo_tc_folder = r'C:/Users/qw2/Desktop/Paddock_Power_GPS/Cibo_TC'
+cibo_tc_folder = r'Paddock_Power_GPS/Cibo_TC'
 
-cibo_tsdm_folder = r'C:/Users/qw2/Desktop/Paddock_Power_GPS/Cibo_TSDM'
+cibo_tsdm_folder = r'Paddock_Power_GPS/Cibo_TSDM'
 
 period_1_months = ['June', 'July', 'August', 'September', 'October', 'November', 'December']
 period_2_months = ['January', 'February', 'March', 'April', 'May']
@@ -118,7 +118,7 @@ def calculate_raster_stats(paddock_lyr, home_range_lyr, cibo_lyr):
     return raster_stats
 #############################################################################################################
 
-output_csv = r'C:/Users/qw2/Desktop/Paddock_Power_GPS/home_range_geopackage_files/BIG_MUDGEE/Big_Mudgee_homerange_stats.csv'
+output_csv = r'Paddock_Power_GPS/home_range_geopackage_files/BIG_MUDGEE/Big_Mudgee_homerange_stats.csv'
 results_tbl = open(output_csv, mode='w', newline='')
 writer = csv.writer(results_tbl)
 writer.writerow(['Paddock',
