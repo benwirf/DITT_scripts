@@ -1,6 +1,6 @@
 <html>
 <div id="img-cont" class="site_img">
-<img src='file:////home/ben/DITT/Display_images/Brunette-new-April-20/images/[%"photo_1"%]' style='transform:rotate([%"photo_1_rot"%]deg)'/>
+<img src='file:///Display_images/Brunette-new-April-20/images/[%"photo_1"%]' style='transform:rotate([%"photo_1_rot"%]deg)'/>
 </div>
 <a id="prev-btn" class="prev">&#10094;</a>
 <a id="next-btn" class="next">&#10095;</a>
@@ -39,7 +39,7 @@
 	
 	function show_image(index){
 		var img_str = ""
-		img_str += "<img src='file:////home/ben/DITT/Display_images/Brunette-new-April-20/images/";
+		img_str += "<img src='file:///Display_images/Brunette-new-April-20/images/";
 		img_str += images[index]+"'"
 		img_str += ' style="transform:rotate('+rotation[index]+'deg'+')"'
 		img_str+="/>"
