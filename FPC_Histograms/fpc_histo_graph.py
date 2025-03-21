@@ -2,7 +2,7 @@ from osgeo import gdal
 import numpy as np
 import matplotlib.pyplot as plt
 
-raster_path = 'C:/Users/qw2/Desktop/Robyn_Jobs/Mulga_Park_FPC/marys_fcp.tif'
+raster_path = 'Mulga_Park_FPC/marys_fcp.tif'
 
 ds = gdal.Open(raster_path, gdal.GA_ReadOnly)
 
@@ -35,7 +35,7 @@ plt.gca().yaxis.grid(linestyle='dashed')
 #plt.show()
 
 #plt.gcf().set_size_inches(10, 7)
-plt.savefig('C:/Users/qw2/Desktop/Robyn_Jobs/Mulga_Park_FPC/OUTPUT/marys_fpc_hist.png', bbox_inches='tight')
+plt.savefig('Mulga_Park_FPC/OUTPUT/marys_fpc_hist.png', bbox_inches='tight')
 plt.cla()
     
 print('Done')
