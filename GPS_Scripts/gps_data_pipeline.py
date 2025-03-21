@@ -95,7 +95,7 @@ for lyr in gps_lyrs:
                 
     # Select features within desired time period and run extract selected features
     # to get permanent output layers...
-    out_folder = 'C:\\Users\\qw2\\Desktop\\Paddock_Power_GPS\\GPS Data Aug21-March22\\gps_layers_final'
+    out_folder = 'Paddock_Power_GPS\\GPS Data Aug21-March22\\gps_layers_final'
     out_lyr = f'{}.gpkg'
     out_path = os.path.join(out_folder, out_lyr)
     save_selected_params = {'INPUT':dest_lyr,
